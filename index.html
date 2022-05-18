@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Odin Signup Form</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="hero-container">
+				<img src="./logo.png" alt="logo" />
+				<h1 class="hero-title">Web3 technologies</h1>
+			</div>
+			<div class="main-container">
+				<p class="statement">
+					This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus,
+					commodi! Sign up now to get started.
+				</p>
+				<p class="statement">You know you want to.</p>
+				<form action="" class="form-container">
+					<h2>Let's do this</h2>
+					<div class="name-container">
+						<label for="first-name">first name</label>
+						<input type="text" id="first-name" placeholder="first name" required />
+						<label for="last-name">last name</label>
+						<input type="text" id="last-name" placeholder="last name" required />
+					</div>
+					<div class="contact-container">
+						<label for="email">email</label>
+						<input type="email" id="email" placeholder="email" required />
+						<label for="phone-number">phone number</label>
+						<input type="text" id="phone-number" placeholder="phone number" required />
+					</div>
+					<div class="password-container">
+						<label for="password">password</label>
+						<input type="password" id="password" placeholder="password" required />
+						<label for="confirm-password">confirm password</label>
+						<input type="password" id="confirm-password" placeholder="confirm password" required />
+					</div>
+				</form>
+				<div class="btn-container">
+					<div class="create-account">
+						<button type="submit">create account</button>
+					</div>
+					<div class="login">
+						<span>Already have an account?</span>
+						<button>Log in</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
