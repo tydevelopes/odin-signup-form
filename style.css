@@ -99,6 +99,11 @@ input:valid {
 	border: none;
 	color: rgb(44, 84, 44);
 	cursor: pointer;
+	background-color: transparent;
+}
+.password-container span {
+	color: salmon;
+	display: none;
 }
 
 @media screen and (min-width: 768px) {
